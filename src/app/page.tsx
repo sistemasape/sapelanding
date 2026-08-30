@@ -186,9 +186,9 @@ export default function Home() {
                 <div className="inline-block px-3 py-1 rounded-full bg-blue-500/20 text-blue-400 text-xs font-semibold mb-4 border border-blue-500/30">
                   A Experiência Completa
                 </div>
-                <h3 className="text-2xl font-semibold mb-4">SAPE + Reduca: Município 360</h3>
-                <p className="text-zinc-400 mb-6">
-                  Não estamos apenas trocando o diário de papel. Estamos criando um <strong>Município Educacional 360</strong>, onde a gestão é precisa com o SAPE e a comunidade engaja com a educação através do Reduca.
+                <h3 className="text-2xl font-semibold mb-4">SAPE + <a href="https://zonaeducacional.org/login" target="_blank" rel="noopener noreferrer" className="text-blue-100 hover:text-white underline decoration-white/30 hover:decoration-white transition-colors">Reduca</a>: Município 360</h3>
+                <p className="text-zinc-200 mb-6">
+                  Não estamos apenas trocando o diário de papel. Estamos criando um <strong>Município Educacional 360</strong>, onde a gestão é precisa com o SAPE e a comunidade engaja com a educação através do <a href="https://zonaeducacional.org/login" target="_blank" rel="noopener noreferrer" className="text-blue-100 hover:text-white underline decoration-white/30 hover:decoration-white transition-colors">Reduca</a>.
                 </p>
                 <a href="#contato" className="inline-block px-6 py-3 rounded-full bg-white text-black hover:bg-zinc-200 transition-colors font-medium">
                   Conhecer o Bundle Completo
