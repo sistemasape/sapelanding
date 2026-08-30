@@ -1,7 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  --color-sape-blue: #2563eb;
+  /* Nova Paleta SAPE (Profissional) */
+  --color-blue-100: #e1ecd6; /* color5 */
+  --color-blue-400: #aee1d3; /* color4 */
+  --color-blue-500: #16c1c8; /* color1 - Base Primary */
+  --color-blue-600: #49cccc; /* color2 - Hover/Accent */
+  --color-purple-500: #7cd7cf; /* color3 - Secondary Accent */
+  --color-purple-600: #49cccc; /* fallback accent */
+  
+  --color-sape-blue: #16c1c8;
   --color-sape-dark: #0f172a;
 }
 
@@ -38,7 +46,7 @@ body {
     105deg,
     rgba(255, 255, 255, 0.6) 0% 38%,
     #ffffff 47%,
-    #3b82f6 50%, /* SAPE Blue shine */
+    #16c1c8 50%, /* SAPE Cyan shine */
     #ffffff 53%,
     rgba(255, 255, 255, 0.6) 62% 100%
   ) 0 0 / 260% 100%;
