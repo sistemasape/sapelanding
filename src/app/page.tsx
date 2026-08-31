@@ -1,7 +1,9 @@
 "use client";
-
 import { motion } from "framer-motion";
 import { CheckCircle2, ChevronRight, LayoutDashboard, Smartphone, Users } from "lucide-react";
+import novaLogo from "../../public/nova_logo.png";
+import sapeDesktop from "../../public/sape_desktop.png";
+import mobileFull from "../../public/mobile_full.png";
 
 export default function Home() {
   return (
@@ -10,7 +12,7 @@ export default function Home() {
       <nav className="fixed top-0 w-full z-50 glass border-b-0 border-white/5">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src="/nova_logo.png" alt="SAPE Logo" className="h-10 w-auto object-contain drop-shadow-xl" />
+            <img src={novaLogo.src} alt="SAPE Logo" className="h-10 w-auto object-contain drop-shadow-xl" />
             <div className="flex items-center gap-2">
               <span className="font-extrabold text-2xl tracking-tight">SAPE</span>
             </div>
@@ -118,7 +120,7 @@ export default function Home() {
                     </div>
                     {/* Image inside Screen */}
                     <img 
-                      src="/sape_desktop.png" 
+                      src={sapeDesktop.src} 
                       alt="SAPE Web Login no Notebook" 
                       className="w-full h-full object-cover object-left opacity-95 hover:opacity-100 transition-opacity duration-500 relative z-10" 
                     />
@@ -209,7 +211,7 @@ export default function Home() {
                   {/* Screen Content - Scrollable */}
                   <div className="w-full flex-1 overflow-y-auto overflow-x-hidden bg-white [&::-webkit-scrollbar]:hidden rounded-[2.2rem]">
                     <img 
-                      src="/mobile_full.png" 
+                      src={mobileFull.src} 
                       alt="SAPE App Mobile Completo" 
                       className="w-full h-auto block" 
                     />
